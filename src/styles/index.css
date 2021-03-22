@@ -1,0 +1,60 @@
+body {
+    position: relative;
+    background-image: url("/public/model-s.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top-bar {
+    letter-spacing: 0.1rem;
+    font: 600 1rem "Open-Sans", sans-serif;
+    background-color: transparent;
+    padding-top: 1rem;
+}
+
+.top-bar menu {
+    font-size: 26px;
+    color: transparent;
+    background-color: transparent;
+}
+
+.first-menu {
+    text-align: center;
+}
+
+.top-bar ul {
+    background-color: transparent;
+}
+
+.top-bar img {
+    top: 0rem;
+    margin: 0;
+}
+
+.hero {
+    letter-spacing: 0.2rem;
+    margin-top: 5rem;
+}
+
+.hero h2 {
+    font-size: 40px;
+}
+
+.lead {
+    font-size: 18px;
+}
+
+.lead span{
+    color: var(--gray-light);
+}
+
+.lead a{
+    text-underline-offset: 4px;
+    color: var(--gray);
+    text-decoration: underline;
+}
+
+.lead a:hover{
+    
+}

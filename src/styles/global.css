@@ -24,16 +24,8 @@
     }
 }
 
-body {
-    position: relative;
-    background-image: url("");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
 body, input, textarea, button{
-    font: 400 1rem "Quicksand", sans-serif;
+    font: 400 1rem "Open-Sans", sans-serif;
 }
 
 button{
