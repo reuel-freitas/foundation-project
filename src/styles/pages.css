@@ -19,8 +19,8 @@ body {
     background-color: transparent;
 }
 
-.first-menu {
-    text-align: center;
+.menu-control {
+    margin-top: 1rem;
 }
 
 .top-bar ul {
@@ -34,7 +34,7 @@ body {
 
 .hero {
     letter-spacing: 0.2rem;
-    margin-top: 5rem;
+    margin-top: 2rem;
 }
 
 .hero h2 {
@@ -42,7 +42,10 @@ body {
 }
 
 .lead {
-    font-size: 18px;
+    letter-spacing: 1px;
+    margin-top: -0.5rem;
+    font-size: 12px;
+    margin-bottom: 18rem;
 }
 
 .lead span{
@@ -53,8 +56,27 @@ body {
     text-underline-offset: 4px;
     color: var(--gray);
     text-decoration: underline;
+    transition: 0.2s;
 }
 
 .lead a:hover{
+    font-size: 16px;
+    color: var(--black);
+    text-decoration: underline;
+}
+
+.button-control a{
+    text-align: center;
+    border-radius: 30px;
+    margin: 5rem;
+}
+
+.button-control a:first-child {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.button-control a:last-child {
+    color: var(--black);
+    background-color: rgba(255, 255, 255, 0.8);
     
 }
