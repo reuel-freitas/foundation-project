@@ -1,16 +1,51 @@
-body {
-    position: relative;
-    background-image: url("/public/model-s.jpg");
+body, html{
+    scroll-behavior: smooth;
+}
+
+.parallax {
+    width: 100%;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    height: 900px;
+}
+
+.modelS {
+    
+    background-image: url(/public/model-s.jpg);
+}
+
+.model3 {
+    top: 900px;
+    background-image: url(/public/model-3.jpg);
+}
+
+.modelx{
+    top: 900px;
+    background-image: url(/public/model-x.jpg);
+}
+
+.modely{
+    top: 900px;
+    background-image: url(/public/model-y.jpg);
 }
 
 .top-bar {
+    z-index: 1;
+    position: fixed;
+    width: 100%;
+    padding-top: 0;
     letter-spacing: 0.1rem;
     font: 600 1rem "Open-Sans", sans-serif;
-    background-color: transparent;
-    padding-top: 1rem;
+    background: none;
+}
+
+.logo {
+    position: absolute;
 }
 
 .top-bar menu {
@@ -20,24 +55,25 @@ body {
 }
 
 .menu-control {
-    margin-top: 1rem;
+    margin-top: 0.6rem;
 }
 
 .top-bar ul {
     background-color: transparent;
 }
 
-.top-bar img {
-    top: 0rem;
-    margin: 0;
-}
-
 .hero {
+    z-index: 1;
+    height: 100%;
+    position: fixed;
+    width: 100%;
     letter-spacing: 0.2rem;
-    margin-top: 2rem;
+    margin-top: 7rem;
 }
 
 .hero h2 {
+    color: var(--gray);
+    font-weight: bold;
     font-size: 40px;
 }
 
@@ -80,3 +116,12 @@ body {
     background-color: rgba(255, 255, 255, 0.8);
     
 }
+
+.teste {
+    display: block;
+    background-image: url("/public/model-3.jpg");
+}
+
+html:not([data-scroll='0']) .hero{
+    color: red;
+  }
